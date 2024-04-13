@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.Table-Normal {
+  position: relative;
+  margin: 10px 16px;
+  padding: 0;
+  width: 98%;
+  height: auto;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.user-row {
+  margin: 16px 0px;
+  height: 50px;
+  border-bottom: 1px solid #d3d3d3;
+  max-width: 80%;
+}
+
+.table-row {
+  margin: 16px 0px;
+  height: 50px;
+  border-bottom: 1px solid #d3d3d3;
+  max-width: 80%;
+}
+
+.bottom-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.delete-selected-button {
+  border-radius: 20px;
+  background-color: #d6204e;
+  color: #fff;
+  padding: 8px 16px;
+  border: 0px
+}
+
+.search-icon {
+  border-radius: 20px;
+  background-color: #d6204e;
+  color: #fff;
+  padding: 8px 16px;
+  border: 0px;
+  margin: 0px 0px 0px 8px;
+}
+
+.action-button {
+  background-color: transparent;
+  border: 0px;
+}
